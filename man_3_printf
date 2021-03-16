@@ -1,0 +1,31 @@
+.TH _printf 3 "16 march 2021" "version 0.1" "man_3_printf"
+.SH NAME
+.B _printf
+- A simple re-creation of the printf function
+.SH SYNOPSIS
+int print(const char *format, ...);
+.SH DESCRIPTION
+An attempt to create a simple replica of the printf function.
+.SH USAGE
+To use _printf you need to use one of the following key characters preceeded by % symbol.
+.RS 0
+%c: To print characters
+.RS 0
+%s: To print strings
+.RS 0
+%d: To print integers of max and min size of an int type
+.RS 0
+%i: To print integers of max and min size of an int type
+.RS 0
+%b: To print a number in binary form
+.RS 0
+%u: To print unsigned integer
+.SH RETURN VALUES
+The _printf() function returns an integer representing the number of symbols
+printed not counting \\0 for the string.
+.SH SEE ALSO
+.I printf(3)
+.SH BUGS
+No common bugs.
+.SH AUTHOR
+Mohamed Jbeli and Altayeb Elzowawi
