@@ -41,7 +41,7 @@ $
 | -------------|---------------------|
 | \_printf.c |  printf function |
 | holberton.h   | Header file containing all function prototypes and struct declarations |
-| functionsofprintf.c  | File containing main print functions |
+| Main.c  | File containing main print functions |
 
 ## Function Descriptions
 | **Function** | **Description** |
