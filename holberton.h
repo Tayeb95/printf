@@ -3,7 +3,7 @@
 #include <stdarg.h>
 /**
   * struct op - contains print operators and their correspong functions
-  * @s: print operator
+  * @t: print operator
   * @f: print function
   */
 typedef struct op
